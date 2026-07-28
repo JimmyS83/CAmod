@@ -54,6 +54,7 @@ MAP="${Map:-""}"
 LISTEN_PORT="${ListenPort:-"1234"}"
 ADVERTISE_ONLINE="${AdvertiseOnline:-"True"}"
 PASSWORD="${Password:-""}"
+ADMIN_PASSWORD="${AdminPassword:-""}"
 RECORD_REPLAYS="${RecordReplays:-"False"}"
 
 REQUIRE_AUTHENTICATION="${RequireAuthentication:-"False"}"
@@ -87,6 +88,7 @@ while true; do
 	 Server.Map="${MAP}" \
      Server.AdvertiseOnline="${ADVERTISE_ONLINE}" \
      Server.Password="${PASSWORD}" \
+     Server.AdminPassword="${ADMIN_PASSWORD}" \
      Server.RecordReplays="${RECORD_REPLAYS}" \
      Server.RequireAuthentication="${REQUIRE_AUTHENTICATION}" \
      Server.ProfileIDBlacklist="${PROFILE_ID_BLACKLIST}" \
